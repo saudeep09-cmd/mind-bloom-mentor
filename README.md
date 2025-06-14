@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
 
-## Project info
+# MindBloom Mentor
 
-**URL**: https://lovable.dev/projects/7dc0bd4d-c49a-4406-b7d9-e809a6559455
+**AI-powered mental health companion for Indian students with culturally-sensitive therapy and crisis support.**
 
-## How can I edit this code?
+This project was built for a hackathon using [Lovable](https://lovable.dev).
 
-There are several ways of editing your application.
+**Live App URL:** [https://your-app-name.lovable.app](https://your-app-name.lovable.app)
+**Lovable Project URL:** [https://lovable.dev/projects/7dc0bd4d-c49a-4406-b7d9-e809a6559455](https://lovable.dev/projects/7dc0bd4d-c49a-4406-b7d9-e809a6559455)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7dc0bd4d-c49a-4406-b7d9-e809a6559455) and start prompting.
+## About The Project
 
-Changes made via Lovable will be committed automatically to this repo.
+MindBloom Mentor is an AI-powered mental health platform designed to provide accessible and personalized support for Indian students and young professionals. It addresses the critical gap in mental healthcare by offering culturally-adapted tools, AI-driven therapy exercises, and immediate crisis intervention resources.
 
-**Use your preferred IDE**
+### Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+*   **AI Mental Health Assessment:** Personalized screening with culturally relevant questions.
+*   **Daily Wellness Programs:** AI-generated exercises combining CBT, mindfulness, and traditional Indian practices.
+*   **Progress Tracking:** Visual dashboards to monitor mood, progress, and gain insights.
+*   **AI-Powered Chat:** A compassionate AI mentor for guidance and support.
+*   **Crisis Support:** Immediate access to helplines and resources.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Built With
 
-Follow these steps:
+*   [React](https://reactjs.org/)
+*   [Vite](https://vitejs.dev/)
+*   [TypeScript](https://www.typescriptlang.org/)
+*   [Tailwind CSS](https://tailwindcss.com/)
+*   [shadcn/ui](https://ui.shadcn.com/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+To get a local copy up and running, follow these simple steps.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Prerequisites
 
-**Edit a file directly in GitHub**
+You'll need [Node.js](https://nodejs.org/en/) (which includes npm) installed on your computer.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Installation & Setup
 
-**Use GitHub Codespaces**
+1.  Clone the repo:
+    ```sh
+    git clone <YOUR_GIT_URL>
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd <YOUR_PROJECT_NAME>
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+4.  Run the development server:
+    ```sh
+    npm run dev
+    ```
+    The app will be available at `http://localhost:5173`.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-## How can I deploy this project?
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-Simply open [Lovable](https://lovable.dev/projects/7dc0bd4d-c49a-4406-b7d9-e809a6559455) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
